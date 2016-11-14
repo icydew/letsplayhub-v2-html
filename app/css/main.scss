@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700&amp;subset=cyrillic");
+@import "minireset.min";
+
+html {
+  height: 100%;
+  font-family: 'Fira Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+body {
+  color: #d0d0d0;
+  background: #323232;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 500;
+}
+h2 {
+  font-size: 2.3rem;
+  color: white;
+}
+h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+h4 {
+  font-size: 1rem;
+}
+
+@import "base/config";
+@import "components/section-menu";
+@import "components/section-content";
