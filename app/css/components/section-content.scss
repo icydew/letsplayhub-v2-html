@@ -11,7 +11,7 @@ $sideWidth: 310px;
       background: url("../../images/sky.jpg") center no-repeat;
       padding: 80px 32px;
       text-align: center;
-      >.sign{
+      > .sign {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -24,41 +24,12 @@ $sideWidth: 310px;
     display: flex;
     flex-direction: column;
     padding: 16px 32px;
+    width: 1600px;
+    margin: 0 auto;
 
-    > .head {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      > .main {
-        flex-grow: 1;
-        margin-right: 32px;
-      }
-      > .side {
-        flex-shrink: 0;
-        width: $sideWidth;
-      }
+    > .panel {
+
     }
 
-    > .body {
-      display: flex;
-      flex-direction: row;
-      padding-top: 18px;
-      padding-bottom: 18px;
-      > .main {
-        flex-grow: 1;
-        margin-right: 32px;
-      }
-      > .side {
-        flex-shrink: 0;
-        width: $sideWidth;
-        > .widget-panel {
-          margin: 32px 0;
-          &:first-child {
-            margin-top: 0;
-          }
-        }
-      }
-    }
   }
-
 }
