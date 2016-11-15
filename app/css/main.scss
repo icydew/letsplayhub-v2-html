@@ -16,8 +16,8 @@ body {
   background: #323232;
   display: flex;
   height: 100%;
-  flex-direction: row;
-  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 a {
@@ -32,13 +32,10 @@ a {
   border-radius: 5px;
   font-size: 1.2rem;
   margin: 10px;
-  padding: 8px 30px;
+  padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -o-transition: .3s;
+  transition: color .3s, border-color .3s, background .3s;
   display: inline-block;
   &.-unsubscribe, &.-up {
     color: $delete;
@@ -94,9 +91,14 @@ h4 {
   font-size: 1.3rem;
 }
 
+@import "components/main-wrapper";
 @import "components/section-menu";
 @import "components/section-content";
 @import "components/main-content";
+@import "components/main-header";
 @import "components/game-list";
+@import "components/game-card";
 @import "components/list-head";
-@import "components/channel-list";
+@import "components/channels-list";
+@import "components/channel-card";
+@import "components/wrapped-list";

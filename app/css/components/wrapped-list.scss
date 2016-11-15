@@ -1,0 +1,26 @@
+.wrapped-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+  > .holder {
+    padding: 8px;
+    flex: 1 0 auto;
+    max-width: 50%;
+    width: 180px;
+  }
+  > .placeholder {
+    flex: 1 0 auto;
+    max-width: 50%;
+    width: 180px;
+  }
+}
+
+.wrapped-list.-game{
+  > .holder {
+    width: 280px;
+  }
+  > .placeholder {
+    width: 280px;
+  }
+}

@@ -1,0 +1,13 @@
+.main-header {
+  > .head {
+    background: url("../../images/sky.jpg") center no-repeat;
+    padding: 80px 32px;
+    text-align: center;
+    > .sign {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 24px;
+    }
+  }
+}

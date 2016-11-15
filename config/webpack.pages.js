@@ -5,7 +5,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './app/index.html'
+      template: './app/index.ejs'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'games.html',
+      template: './app/games.ejs'
     }),
     new HtmlWebpackPlugin({
       filename: 'about.html',

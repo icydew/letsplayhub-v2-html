@@ -1,0 +1,9 @@
+.game-card {
+  box-sizing: border-box;
+  padding: 8px;
+  background: $dimgrey;
+
+  > .preview {
+    padding-bottom: 56%;
+  }
+}

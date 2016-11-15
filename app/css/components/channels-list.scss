@@ -1,0 +1,10 @@
+.channels-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  > .more {
+    text-align: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #222222;
+  }
+}
