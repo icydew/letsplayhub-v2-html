@@ -1,0 +1,30 @@
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: $dimgrey;
+  padding: 24px;
+
+  > .head {
+    border-bottom: 1px solid $grey;
+    padding: 8px 0 16px 0;
+    text-align: center;
+  }
+  > .table {
+    padding-top: 16px;
+    .title, .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .title {
+      padding-bottom: 16px;
+      color: white;
+    }
+    .row {
+      border-bottom: 1px solid $grey;
+      padding: 16px 0;
+
+    }
+  }
+}

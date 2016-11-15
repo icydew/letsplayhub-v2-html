@@ -24,3 +24,11 @@
     width: 280px;
   }
 }
+.wrapped-list.-featured{
+  > .holder {
+    width: 400px;
+  }
+  > .placeholder {
+    width: 400px;
+  }
+}
