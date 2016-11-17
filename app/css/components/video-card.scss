@@ -1,0 +1,12 @@
+.video-card {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 100%;
+
+  > .preview {
+    padding-bottom: 56%;
+    background: $backgroundgrey;
+  }
+}
+.video-card.-channel{
+}

@@ -12,6 +12,10 @@ module.exports = {
       template: './app/games.ejs'
     }),
     new HtmlWebpackPlugin({
+      filename: 'channels.html',
+      template: './app/channels.ejs'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'about.html',
       template: './app/about.html'
     }),
