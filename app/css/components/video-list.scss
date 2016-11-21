@@ -1,5 +1,8 @@
 .video-list {
   display: flex;
   flex-direction: column;
+  >.list {
+    padding-top: 16px;
+  }
 
 }

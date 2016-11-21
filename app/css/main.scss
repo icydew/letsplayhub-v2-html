@@ -17,6 +17,7 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -96,6 +97,7 @@ h4 {
 @import "components/section-content";
 @import "components/main-content";
 @import "components/main-header";
+@import "components/nav-path";
 @import "components/game-list";
 @import "components/game-card";
 @import "components/list-head";

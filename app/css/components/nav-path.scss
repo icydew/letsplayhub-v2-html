@@ -1,0 +1,11 @@
+.nav-path {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0;
+  > h3 {
+    padding: 8px 40px;
+  }
+  .choose{
+    border-bottom: 3px solid $aquamarine;
+  }
+}

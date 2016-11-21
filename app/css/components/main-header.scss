@@ -1,7 +1,13 @@
 .main-header {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  background: url("../../images/sky.jpg") center no-repeat;
+  padding: 0 32px;
+  justify-content: center;
+
+
   > .head {
-    background: url("../../images/sky.jpg") center no-repeat;
-    padding: 80px 32px;
     text-align: center;
     > .sign {
       display: flex;
@@ -9,5 +15,11 @@
       justify-content: center;
       padding-top: 24px;
     }
+  }
+  > .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
 }

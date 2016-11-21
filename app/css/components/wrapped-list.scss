@@ -32,3 +32,11 @@
     width: 400px;
   }
 }
+.wrapped-list.-video{
+  > .holder {
+    width: 280px;
+  }
+  > .placeholder {
+    width: 280px;
+  }
+}
