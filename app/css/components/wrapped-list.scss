@@ -16,7 +16,7 @@
   }
 }
 
-.wrapped-list.-game{
+.wrapped-list.-game {
   > .holder {
     width: 280px;
   }
@@ -24,7 +24,8 @@
     width: 280px;
   }
 }
-.wrapped-list.-featured{
+
+.wrapped-list.-featured {
   > .holder {
     width: 400px;
   }
@@ -32,11 +33,28 @@
     width: 400px;
   }
 }
-.wrapped-list.-video{
+
+.wrapped-list.-video {
   > .holder {
     width: 280px;
   }
   > .placeholder {
     width: 280px;
+  }
+}
+
+.wrapped-list.-col1 {
+  padding-bottom: 32px;
+  > .holder {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.wrapped-list.-playlist {
+  > .holder {
+    width: 100%;
+    max-width: 100%;
   }
 }

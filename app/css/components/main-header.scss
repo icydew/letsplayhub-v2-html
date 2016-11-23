@@ -6,7 +6,6 @@
   padding: 0 32px;
   justify-content: center;
 
-
   > .head {
     text-align: center;
     > .sign {
@@ -22,4 +21,18 @@
     justify-content: space-between;
 
   }
+}
+
+.main-header.-video {
+  background: none;
+  height: auto;
+  flex-direction: row;
+  padding: 0;
+  > .game, .channel {
+    padding: 16px 32px;
+    width: 50%;
+    text-align: center;
+    background: url("../../images/sky.jpg") center no-repeat;
+  }
+
 }

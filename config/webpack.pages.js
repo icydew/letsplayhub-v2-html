@@ -20,6 +20,10 @@ module.exports = {
       template: './app/game-all-video.ejs'
     }),
     new HtmlWebpackPlugin({
+      filename: 'game-video.html',
+      template: './app/game-video.ejs'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'game-all-channels.html',
       template: './app/game-all-channels.ejs'
     }),
@@ -31,6 +35,7 @@ module.exports = {
       filename: 'channel-all-games.html',
       template: './app/channel-all-games.ejs'
     }),
+
 
 
 

@@ -16,6 +16,43 @@ $sideWidth: 310px;
       flex-direction: column;
       flex-grow: 1;
       padding: 16px 32px;
+
+      > .head {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        > .main {
+          flex-grow: 1;
+          margin-right: 32px;
+        }
+        > .side {
+          flex-shrink: 0;
+          text-align: center;
+          width: $sideWidth;
+        }
+
+      }
+
+      > .body {
+        display: flex;
+        flex-direction: row;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        > .main {
+          flex-grow: 1;
+          margin-right: 32px;
+        }
+        > .side {
+          flex-shrink: 0;
+          width: $sideWidth;
+          > .widget-panel {
+            margin: 32px 0;
+            &:first-child {
+              margin-top: 0;
+            }
+          }
+        }
+      }
     }
   }
 }
